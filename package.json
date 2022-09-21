@@ -15,13 +15,16 @@
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "https://leandroBarbosaFR.github.io/my-app"
   },
   "scripts": {
-    "start": "react-scripts start",
+   "start": "node server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -41,4 +44,5 @@
       "last 1 safari version"
     ]
   }
+
 }
