@@ -1,0 +1,24 @@
+.tape {
+   height: 70px;
+   width: 100%;
+   background-color: rgb(255, 198, 12);
+   rotate: -4deg;
+   border: dashed 6px black;
+   border-left: none;
+   border-right: none;
+   border-radius: none;
+   margin-top: 60px;
+}
+
+.tape1{
+   height: 70px;
+   width: 100%;
+   background-color: rgb(255, 198, 12);
+   rotate: 10deg;
+   border: dashed 6px black;
+   border-radius: none;
+   border-right: none;
+   border-radius: none;
+   margin-left: -18px;
+   margin-top: 60px;
+}
