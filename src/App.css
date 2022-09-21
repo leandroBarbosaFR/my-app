@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+.greetings {
+  color: white;
+  font-size: 200px;
+  margin-bottom: 600px;
+  display: inline-block;
+}
+
+.greetings1 {
+   color: white;
+   font-size: 200px;
+   rotate: -90deg;
+   margin-right: 1000px;
+   display: inline-block;
+   margin-top: -405px;
+ }
+
+ @-webkit-keyframes rotating /* Safari and Chrome */ {
+   from {
+     -webkit-transform: rotate(0deg);
+     -o-transform: rotate(0deg);
+     transform: rotate(0deg);
+   }
+   to {
+     -webkit-transform: rotate(360deg);
+     -o-transform: rotate(360deg);
+     transform: rotate(360deg);
+   }
+ }
+ @keyframes rotating {
+   from {
+     -ms-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+     -webkit-transform: rotate(0deg);
+     -o-transform: rotate(0deg);
+     transform: rotate(0deg);
+   }
+   to {
+     -ms-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+     -webkit-transform: rotate(360deg);
+     -o-transform: rotate(360deg);
+     transform: rotate(360deg);
+   }
+ }
+ .logoreact {
+   -webkit-animation: rotating 2s linear infinite;
+   -moz-animation: rotating 2s linear infinite;
+   -ms-animation: rotating 2s linear infinite;
+   -o-animation: rotating 2s linear infinite;
+   animation: rotating 2s linear infinite;
+   float: right;
+   display: inline-block;
+   margin-right: 500px;
+   margin-top: 180px;
+   width: fit-content;
+   cursor: pointer;
+ }
